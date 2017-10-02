@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width,initial-scale=1">
-   <title>An HTML Template</title>
-   <link rel="stylesheet" href="css/style.css">
-   <style>
+body {
+   font-size: 3 rem;
+   font-style: gotham;
+   background-color: pink;
+}
 
-   body {
-        font-size: 3rem;
-        background-color: green;
-   }
-      </style>
-</head>
-<body>
-</body>
-</html>
+ol li li {
+   border: 1px solid green;
+}
+
+li + li{
+   background-color: yellow;
+}
