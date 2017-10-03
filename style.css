@@ -54,5 +54,14 @@ html > head + body > h1 {
 }
 
 h1 {
-   color: white;
+   color: pink;
+   display: block;
+}
+
+nav ul {
+   list-style-type: none;
+}
+
+nav ul li {
+   display: inline;
 }
