@@ -1,13 +1,58 @@
 body {
-   font-size: 3 rem;
-   font-style: gotham;
+   font-family: sans-serif;
    background-color: pink;
+   color: white;
 }
 
-ol li li {
-   border: 1px solid green;
+li {
+   color: white;
 }
 
-li + li{
+ol li {
+   color: white;
+}
+
+ol li + li {
+   color: white;
+}
+
+ol li + li + li {
+   color: white;
+}
+
+li {
+   background-color: #aaa;
+}
+
+.highlight {
    background-color: yellow;
+}
+
+p.highlight {
+   padding: 4px;
+   border-radius: 12px;
+   background-color: green;
+   border: 1px solid red;
+}
+
+.warning {
+   color: red;
+}
+
+.urgent {
+   border: 1px solid red;
+}
+
+.urgent.warning {
+   background-color: yellow;
+}
+
+html > head + body > h1 {
+   background-color: teal;
+   padding: 10px;
+   border: 2px solid white;
+}
+
+h1 {
+   color: white;
 }
